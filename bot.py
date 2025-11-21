@@ -3,7 +3,7 @@ import requests
 from flask import Flask, request
 from db import init_db, get_conn
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8428517307:AAH7qxX-Zd19solih0DeqM8fmsKAHAT7yiM")
 BASE = f"https://api.telegram.org/bot{TOKEN}"
 app = Flask(__name__)
 
